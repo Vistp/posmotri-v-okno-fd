@@ -60,6 +60,17 @@ ol {
   width: 1140px;
 }
 
+.result__video-container {
+  height: 386px;
+  width: 710px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+  object-fit: cover;
+}
+
 .search-form {
   display: flex;
   align-items: start;
@@ -75,4 +86,28 @@ ol {
 .content__list-container {
   max-height: 298px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  object-fit: cover;
+  object-position: center;
 }
