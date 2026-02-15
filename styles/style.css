@@ -60,10 +60,13 @@ ol {
   width: 1140px;
 }
 
+/* Section result */
+
 .result__video-container {
   height: 386px;
   width: 710px;
   margin-bottom: 16px;
+  flex-shrink: 0; 
 }
 
 .result__video {
@@ -77,10 +80,31 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Section content__details */
+
 .content__details {
   display: flex;
   flex-direction: column;
   gap: 26px;
+
+}
+
+.title {
+  font-family: 'Oswald';
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
 }
 
 .content__list-container {
@@ -97,6 +121,11 @@ ol {
   gap: 30px;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .content__video-card {
   display: flex;
   align-items: start;
@@ -104,6 +133,23 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+}
+
+.content__video-card-title {
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  line-height: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
