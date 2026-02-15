@@ -88,11 +88,12 @@ ol {
 .search-form {
   display: flex;
   align-items: start;
-  justify-content: space-between;
+  gap: 40px;
 }
 
 .search-form__fieldset {
   border: none;
+  flex-grow: 1;
 }
 
 .search-form__fieldset-title {
@@ -234,4 +235,40 @@ ol {
   width: 194px;
   object-fit: cover;
   object-position: center;
+}
+
+/* Стили кнопок */
+
+.button {
+  padding: 6px 0;
+  text-align: center;
+  font-family: 'Fira Sans Condensed';
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  align-self: flex-end;
+}
+
+/* TODO: проверить размеры контейнера, чтобы при фокусе обводку было видно со всех сторон */
+.more-button {
+  width: 390px;
 }
