@@ -74,6 +74,7 @@ ol {
 /* Section result */
 
 .result__video-container {
+  position: relative;
   height: 386px;
   width: 710px;
   margin-bottom: 16px;
@@ -192,6 +193,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   max-height: 298px;
   overflow-y: scroll;
   display: flex;
