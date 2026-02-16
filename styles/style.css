@@ -141,6 +141,11 @@ ol {
 }
 
 /* Чекбоксы */
+
+.search-form__checkbox-list > .search-form__label {
+  cursor: pointer;
+}
+
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
@@ -270,6 +275,7 @@ ol {
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:hover {
